@@ -1,0 +1,178 @@
+/*HTML Stylesheet Skript V1.0*/
+/*Autor: Philipp Hager*/
+
+@import url("dropdown_menue.css");
+
+body
+{
+    /*background-color: #E8E8E8;*/
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-position: top;    
+}
+
+
+a                                                               
+{
+    color: #0000FF;
+}
+
+a:hover
+{
+     color: #FF00CC;
+}
+
+a img
+{
+    
+}
+
+
+/*root_site Setup*/
+#root_site
+{
+    background-color: #fff; /*weiﬂer Hintergrund*/
+    height: auto;
+    margin-top: 45px; /*Korrektur height von oben*/
+    width: 860px;
+}
+    
+    #head_main_container
+    {
+        background-color: #fff;
+        height: 200px;
+        width: 100%; 
+    }
+    
+        .header_background
+        {
+            height: 200px;
+            width: 860px;
+            background-color: #5A347C;       
+            /*background: url(images/header1.png) no-repeat;  
+            background-position: center; */
+        }
+        
+        .header_background table
+        {
+            font-family: Arial;
+            font-size: 50pt;
+			text-align: center;
+            color: #F1F157; /*color: #FF8000; */
+            /*text-align: center;*/
+        }
+		
+		                                                
+    #navi_main_container
+    {
+        background-color: #96385F;
+        height: 50px;	
+        width: 100%;   
+    }
+        
+        .navi_container
+        {
+            width: 100%;
+            height: 40px;
+            padding: 10px;
+        }
+    
+    #content_main_container
+    {
+        background-color: #fff;
+        height: auto;
+        width: 100%; 
+        float: left;  
+    }
+    
+        .content_left_main
+        {
+            width: 70%;
+            height: 100%;
+            background-color: #fff;
+            float: left; 
+        }
+            
+            .content_left_table
+            {
+                /*padding: top right bottom left*/
+                padding: 10px 40px 10px 30px;  
+            }
+            
+                .news_box
+                {
+                    background-color: #EAEAEA;
+                    padding: 3px 3px 3px 3px;
+                    border-radius: 10px;
+                }
+                
+        
+        .content_right_main
+        {
+            width: 30%;
+            height: 100%;
+            background-color: #fff;
+            float: right;
+        }
+            .content_right_table
+            {
+                /*padding: top right bottom left*/
+                padding: 0 40px 10px 15px;
+                border-left: dotted 1px #CCCCCC;
+                margin-top: 10px; /*ein bisschen unter dem Strich*/
+            }
+            
+                .content_table_headline
+                {
+                    font-size: 14pt;
+                    font-family: Arial;
+                    font-weight: bold;
+                    font-variant: small-caps;
+                    border-bottom: dotted 1px #09A9C6;
+                    color: #09A9C6;
+                    padding-top: 0;
+                }
+    
+    #footer_main_container
+    {
+        background-color: #333333;
+        height: auto;
+        width: 100%;
+        float: left;  
+    }
+    
+        #footer_container
+        {
+            padding: 15px 10px 15px 10px; 
+        }
+        
+            .footer_table_setup
+            {
+                font-family: Arial;
+                font-size: 10pt;
+                text-align: center;
+            }
+            
+            .footer_table_setup td /*sprechen Spalten direkt an*/
+            {
+                height: 12px;
+                width: 180px;
+                border-bottom: dotted 1px #fff;
+            }
+            td.footer_logo
+            {
+                width: 60px;
+                border: none;
+            }
+            
+            .footer_table_setup a
+            {
+                color: #fff;
+                text-decoration: none;
+            }
+            
+            .footer_table_setup a:hover
+            {
+                color: #09A9C6 ;
+                text-decoration: underline;
+            }

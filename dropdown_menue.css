@@ -1,0 +1,96 @@
+/*Dropdown CSS Skript*/
+
+ul#navigation_main
+{
+    font-weight: 500;
+    font-size: 13pt;
+    font-family: Arial;
+    color: #fff;
+    margin-left: 450px;
+}
+
+ul#navigation_main li
+{
+    float: left;
+    position: relative;
+    list-style-type: none;    
+}
+
+ul#navigation_main li a
+{
+    color: #fff;
+    text-decoration: none;    
+}
+
+ul#navigation_main li a:hover
+{
+    color: #09ECEC;
+    text-decoration: none;
+}
+
+ul#navigation_main li.home
+{
+    width: 80px;
+}
+
+ul#navigation_main li.termine
+{
+    width: 80px;
+}
+
+ul#navigation_main li.about_us
+{
+    width: 80px;
+}
+
+ul#navigation_main li.jobs
+{
+    width: 80px;
+}
+
+ul#navigation_main li ul.dropdown_navi
+{
+    
+    /*background:-moz-linear-gradient(top,#EDEDED,#E3E3E3);*/ /*Mozilla*/
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#00f), top(#fff)*/ /*Safari, Google Chrome*/
+    /*filter.progid:DXImage Transform.Microsoft.gradient(startColostr=#FF0000FF, endColorstr=#FFFFFF);*/ /* Internet Explorer 5.5-7*/ 
+    /*-ms-filter.progid:DXImage Transform.Microsoft.gradient(startColostr=#FF0000FF, endColorstr=#FFFFFF);*/ /* Internet Explorer 8*/ 
+    background-color: #96385F; 
+    position: absolute;
+    border: solid 1px white;
+    top: 20px;
+    left: -10px;
+    padding: 5px 5px 5px 10px;
+    width: 90px;
+    font-size: 10pt;
+    border-radius: 7px;
+    border-color: #C0C0C0;
+    box-shadow: 0px 4px 4px 0px #C0C0C0;
+}
+
+ul#navigation_main li ul.dropdown_navi a
+{
+    color: #fff;
+}
+
+ul#navigation_main li ul.dropdown_navi a:hover
+{
+    color: #09A9C6;
+    text-decoration: none;
+}
+
+ul#navigation_main li ul li
+{
+    display: block;
+    float: none;
+}
+
+ul#navigation_main li>ul
+{
+    display: none;
+}
+
+ul#navigation_main li:hover>ul
+{
+    display: block;
+}
